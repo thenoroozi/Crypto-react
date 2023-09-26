@@ -1,25 +1,37 @@
 .coinContainer {
-  margin: 50px auto;
-  border: 1px solid silver;
-  border-radius: 10px;
-  width: fit-content;
-  background-color: #f6f6f6;
+   margin: 50px auto;
+   border: 1px solid silver;
+   border-radius: 10px;
+   width: fit-content;
+   background-color: #f6f6f6;
+   overflow: hidden;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 15px 40px;
+   font-size: 15px;
+   background-color: #424242;
+   color: #f1f1f1;
+   /* border-bottom: 1px solid #272727; */
 }
 
 .input {
-  width: 300px;
-  margin-top: 50px;
-  border: 1px solid silver;
-  border-radius: 5px;
-  height: 20px;
-  padding: 5px;
-  background-color: #f6f6f6;
-  transition: all 0.2s ease;
+   width: 300px;
+   margin-top: 50px;
+   border: 1px solid silver;
+   border-radius: 5px;
+   height: 20px;
+   padding: 5px;
+   background-color: #f6f6f6;
+   transition: all 0.2s ease;
 }
 
 .input:focus {
-  outline: none;
-  border-color: white;
-  background: white;
-  box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+   outline: none;
+   border-color: white;
+   background: white;
+   box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
 }

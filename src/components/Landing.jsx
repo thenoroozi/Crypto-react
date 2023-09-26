@@ -34,6 +34,13 @@ const Landing = () => {
          {
             coins.length ?
                <div className={styles.coinContainer}>
+                  <div className={styles.header}>
+                     <span>Coin</span>
+                     <span>Symbol</span>
+                     <span>Price</span>
+                     <span>24h</span>
+                     <span>Mkt Cap</span>
+                  </div>
                   {
                      searchedCoins.map(coin => <Coin
                         key={coin.id}
