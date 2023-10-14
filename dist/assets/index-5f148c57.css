@@ -1,0 +1,130 @@
+#root {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif
+}
+
+._container_1323b_1 {
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center
+}
+
+._loader_1323b_15 {
+   border: 8px solid #f3f3f3;
+   border-radius: 50%;
+   border-top: 8px solid #3498db;
+   width: 40px;
+   height: 40px;
+   -webkit-animation: _spin_1323b_1 2s linear infinite;
+   animation: _spin_1323b_1 2s linear infinite;
+   margin-right: 20px
+}
+
+@-webkit-keyframes _spin_1323b_1 {
+   0% {
+      -webkit-transform: rotate(0deg)
+   }
+
+   to {
+      -webkit-transform: rotate(360deg)
+   }
+}
+
+@keyframes _spin_1323b_1 {
+   0% {
+      transform: rotate(0)
+   }
+
+   to {
+      transform: rotate(360deg)
+   }
+}
+
+._container_sdntv_1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 15px 40px;
+   font-size: 12px;
+   color: #212529;
+   border-bottom: 1px solid silver
+}
+
+._container_sdntv_1:last-child {
+   border: none
+}
+
+._image_sdntv_29 {
+   width: 30px
+}
+
+._name_sdntv_37 {
+   width: 140px;
+   font-size: 14xp;
+   margin-left: 15px;
+   text-align: left;
+   font-weight: 700;
+   color: #333
+}
+
+._symbol_sdntv_55,
+._currentPrice_sdntv_65 {
+   text-align: left;
+   width: 100px
+}
+
+._greenPriceChange_sdntv_75,
+._redPriceChange_sdntv_77 {
+   width: 100px;
+   text-align: left;
+   font-weight: 700
+}
+
+._redPriceChange_sdntv_77 {
+   color: #ff2626
+}
+
+._greenPriceChange_sdntv_75 {
+   color: #0c0
+}
+
+._coinContainer_1ppmx_1 {
+   margin: 50px auto;
+   border: 1px solid silver;
+   border-radius: 10px;
+   width: fit-content;
+   background-color: #f6f6f6;
+   overflow: hidden
+}
+
+._header_1ppmx_19 {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 15px 40px;
+   font-size: 15px;
+   background-color: #424242;
+   color: #f1f1f1
+}
+
+._input_1ppmx_41 {
+   width: 300px;
+   margin-top: 50px;
+   border: 1px solid silver;
+   border-radius: 5px;
+   height: 20px;
+   padding: 5px;
+   background-color: #f6f6f6;
+   transition: all .2s ease
+}
+
+._input_1ppmx_41:focus {
+   outline: none;
+   border-color: #fff;
+   background: white;
+   box-shadow: #4a4a4a3d 0 3px 8px
+}
